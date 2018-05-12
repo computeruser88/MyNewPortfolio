@@ -1,0 +1,25 @@
+.selfie {
+    transition-duration: 0.4s;
+}
+.selfie:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 50px #ffffff;
+}
+.footer-image {
+    height: 64px;
+    width: 64px;
+    transition-duration: 0.4s;
+}
+.footer-image-2 {
+    height: 57px;
+    width: 57px;
+    position: relative;
+    bottom: 3px;
+    left: 3px;  
+    transition-duration: 0.4s;
+}
+
+.footer-image:hover, 
+.footer-image-2:hover {
+    transform: scale(1.1);
+}
