@@ -5,6 +5,13 @@
     transform: scale(1.1);
     box-shadow: 10px 10px 50px #ffffff;
 }
+.project-column {
+    transition-duration: 0.4s;
+}
+.project-column:hover {
+    transform: scale(1.01);
+}
+
 .footer-image {
     height: 64px;
     width: 64px;
@@ -21,5 +28,15 @@
 
 .footer-image:hover, 
 .footer-image-2:hover {
+    transform: scale(1.1);
+}
+#main-link,
+#portfolio-link,
+#portfolio-link-2 {
+    transition-duration: 0.4s;
+}
+#main-link:hover,
+#portfolio-link:hover,
+#portfolio-link-2:hover {
     transform: scale(1.1);
 }
